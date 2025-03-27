@@ -1,0 +1,42 @@
+{
+    "cigarette_box": {
+        "filename": "cigarette_box/train/good/101_001.jpg",
+        "maskname": "",
+        "clsname": "cigarette_box",
+        "specie_name": "good",
+        "label": 0,
+        "label_name": "good"
+    },
+    "drink_bottle": {
+        "filename": "drink_bottle/train/good/037_004.jpg",
+        "maskname": "",
+        "clsname": "drink_bottle",
+        "specie_name": "good",
+        "label": 0,
+        "label_name": "good"
+    },
+    "food_bottle": {
+        "filename": "food_bottle/train/good/040_003.jpg",
+        "maskname": "",
+        "clsname": "food_bottle",
+        "specie_name": "good",
+        "label": 0,
+        "label_name": "good"
+    },
+    "food_box": {
+        "filename": "food_box/train/good/026_004.jpg",
+        "maskname": "",
+        "clsname": "food_box",
+        "specie_name": "good",
+        "label": 0,
+        "label_name": "good"
+    },
+    "food_package": {
+        "filename": "food_package/train/good/006_001.jpg",
+        "maskname": "",
+        "clsname": "food_package",
+        "specie_name": "good",
+        "label": 0,
+        "label_name": "good"
+    }
+}

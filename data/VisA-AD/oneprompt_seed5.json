@@ -1,0 +1,86 @@
+{
+    "candle": {
+        "clsname": "candle",
+        "label": 0,
+        "filename": "candle/Data/Images/Normal/0782.JPG",
+        "maskname": "",
+        "label_name": "good"
+    },
+    "capsules": {
+        "clsname": "capsules",
+        "label": 0,
+        "filename": "capsules/Data/Images/Normal/110.JPG",
+        "maskname": "",
+        "label_name": "good"
+    },
+    "cashew": {
+        "clsname": "cashew",
+        "label": 0,
+        "filename": "cashew/Data/Images/Normal/008.JPG",
+        "maskname": "",
+        "label_name": "good"
+    },
+    "chewinggum": {
+        "clsname": "chewinggum",
+        "label": 0,
+        "filename": "chewinggum/Data/Images/Normal/453.JPG",
+        "maskname": "",
+        "label_name": "good"
+    },
+    "fryum": {
+        "clsname": "fryum",
+        "label": 0,
+        "filename": "fryum/Data/Images/Normal/008.JPG",
+        "maskname": "",
+        "label_name": "good"
+    },
+    "macaroni1": {
+        "clsname": "macaroni1",
+        "label": 0,
+        "filename": "macaroni1/Data/Images/Normal/0506.JPG",
+        "maskname": "",
+        "label_name": "good"
+    },
+    "macaroni2": {
+        "clsname": "macaroni2",
+        "label": 0,
+        "filename": "macaroni2/Data/Images/Normal/0903.JPG",
+        "maskname": "",
+        "label_name": "good"
+    },
+    "pcb1": {
+        "clsname": "pcb1",
+        "label": 0,
+        "filename": "pcb1/Data/Images/Normal/0704.JPG",
+        "maskname": "",
+        "label_name": "good"
+    },
+    "pcb2": {
+        "clsname": "pcb2",
+        "label": 0,
+        "filename": "pcb2/Data/Images/Normal/0728.JPG",
+        "maskname": "",
+        "label_name": "good"
+    },
+    "pcb3": {
+        "clsname": "pcb3",
+        "label": 0,
+        "filename": "pcb3/Data/Images/Normal/0819.JPG",
+        "maskname": "",
+        "label_name": "good"
+    },
+    "pcb4": {
+        "clsname": "pcb4",
+        "label": 0,
+        "filename": "pcb4/Data/Images/Normal/0790.JPG",
+        "maskname": "",
+        "label_name": "good"
+    },
+    "pipe_fryum": {
+        "clsname": "pipe_fryum",
+        "label": 0,
+        "filename": "pipe_fryum/Data/Images/Normal/410.JPG",
+        "maskname": "",
+        "label_name": "good"
+    }
+}

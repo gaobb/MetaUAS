@@ -1,0 +1,92 @@
+{
+    "zipper": {
+        "filename": "zipper/train/good/038.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "zipper"
+    },
+    "metal_nut": {
+        "filename": "metal_nut/train/good/191.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "metal_nut"
+    },
+    "hazelnut": {
+        "filename": "hazelnut/train/good/270.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "hazelnut"
+    },
+    "bottle": {
+        "filename": "bottle/train/good/071.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "bottle"
+    },
+    "pill": {
+        "filename": "pill/train/good/159.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "pill"
+    },
+    "capsule": {
+        "filename": "capsule/train/good/165.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "capsule"
+    },
+    "leather": {
+        "filename": "leather/train/good/235.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "leather"
+    },
+    "wood": {
+        "filename": "wood/train/good/036.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "wood"
+    },
+    "grid": {
+        "filename": "grid/train/good/141.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "grid"
+    },
+    "transistor": {
+        "filename": "transistor/train/good/157.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "transistor"
+    },
+    "screw": {
+        "filename": "screw/train/good/147.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "screw"
+    },
+    "cable": {
+        "filename": "cable/train/good/200.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "cable"
+    },
+    "carpet": {
+        "filename": "carpet/train/good/242.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "carpet"
+    },
+    "tile": {
+        "filename": "tile/train/good/182.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "tile"
+    },
+    "toothbrush": {
+        "filename": "toothbrush/train/good/012.png",
+        "label": 0,
+        "label_name": "good",
+        "clsname": "toothbrush"
+    }
+}

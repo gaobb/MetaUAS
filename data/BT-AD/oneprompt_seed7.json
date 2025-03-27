@@ -1,0 +1,20 @@
+{
+    "01": {
+        "filename": "01/train/ok/0166.bmp",
+        "clsname": "01",
+        "label": 0,
+        "label_name": "good"
+    },
+    "02": {
+        "filename": "02/train/ok/0078.png",
+        "clsname": "02",
+        "label": 0,
+        "label_name": "good"
+    },
+    "03": {
+        "filename": "03/train/ok/0405.bmp",
+        "clsname": "03",
+        "label": 0,
+        "label_name": "good"
+    }
+}
