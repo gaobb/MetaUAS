@@ -24,12 +24,13 @@ MetaUAS unifies anomaly segmentation into change segmentation and provides a pur
 ![main-diffprompts](images/MetaUAS-Vis.jpg)
 
 ## Demo
-You can run the demo application using the following command:
+You can use our [Online Demo](https://huggingface.co/spaces/csgaobb/MetaUAS) to test your custom data for a quick start. Note that the online demo is currently based on CPU.
+You could also deploy the demo application to your local CPU/GPU server using the following command:
 ```
+pip install -r requirements.txt
 python app.py
 ```
-You could also try to [Online Demo](https://huggingface.co/spaces/csgaobb/MetaUAS) for a quick start. 
-Note that our online demo is based on CPU since there is no GPU for Hugging Face Space.
+
 
 
 
