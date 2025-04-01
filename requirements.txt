@@ -8,7 +8,7 @@ opencv_python==4.6.0.66
 opencv_python_headless==4.7.0.72
 Pillow==8.4.0
 pytorch_lightning==1.9.0
-segmentation_models_pytorch==0.2.1
+segmentation-models-pytorch@git+https://github.com/ragavsachdeva/segmentation_models.pytorch.git@0092ee4d6f851d89a4a401bb2dfa6187660b8dd3
 torch==1.12.1+cu113
 torchvision==0.13.1+cu113
 tqdm==4.62.3
