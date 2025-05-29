@@ -31,6 +31,11 @@ pip install -r requirements.txt
 python app.py
 ```
 
+## ToDo List
+- [x] release pre-trained AdaptCLIP models
+- [x] deploy online AdaptCLIP Demo on [HuggingFace Space](https://huggingface.co/spaces/csgaobb/MetaUAS)
+- [ ] open testing code
+- [ ] open training code
 
 
 
