@@ -33,7 +33,7 @@ python app.py
 
 ## ToDo List
 - [x] release pre-trained [MetaUAS models](https://huggingface.co/csgaobb/MetaUAS)
-- [x] deploy [online AdaptCLIP Demo](https://huggingface.co/spaces/csgaobb/MetaUAS)
+- [x] deploy [online MetaUAS Demo](https://huggingface.co/spaces/csgaobb/MetaUAS)
 - [ ] open testing code
 - [ ] open training code
 
