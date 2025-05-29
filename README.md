@@ -32,8 +32,8 @@ python app.py
 ```
 
 ## ToDo List
-- [x] release pre-trained AdaptCLIP models
-- [x] deploy online AdaptCLIP Demo on [HuggingFace Space](https://huggingface.co/spaces/csgaobb/MetaUAS)
+- [x] release pre-trained [MetaUAS models](https://huggingface.co/csgaobb/MetaUAS)
+- [x] deploy [online AdaptCLIP Demo](https://huggingface.co/spaces/csgaobb/MetaUAS)
 - [ ] open testing code
 - [ ] open training code
 
