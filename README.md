@@ -52,3 +52,8 @@ If you find this code useful in your research, please consider citing us:
   year = {2024}
 }
 ```
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=gaobb/MetaUAS&type=Timeline)](https://www.star-history.com/#gaobb/MetaUAS&Timeline)
