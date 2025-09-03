@@ -68,6 +68,26 @@ def safely_load_state_dict(model, checkpoint):
     model.load_state_dict(torch.load(checkpoint), strict=True)
     return model
 
+def visualizer(paths, anomaly_map, img_size, save_path, cls_name, shot=0):
+    for idx, path in enumerate(paths):
+        cls = path.split('/')[-2]
+        filename = path.split('/')[-1]
+        vis = cv2.cvtColor(cv2.resize(cv2.imread(path), (img_size, img_size)), cv2.COLOR_BGR2RGB)  # RGB
+        #mask = normalize(anomaly_map[idx])
+        mask = anomaly_map[idx]
+        vis = apply_ad_scoremap(vis, mask)
+        vis = cv2.cvtColor(vis, cv2.COLOR_RGB2BGR)  # BGR
+        save_vis = os.path.join(save_path, 'imgs-shot' + str(shot), cls_name[idx], cls)
+        if not os.path.exists(save_vis):
+            os.makedirs(save_vis)
+        cv2.imwrite(os.path.join(save_vis, filename), vis)
+
+def few_shot(memory, query):
+    simscore = torch.einsum("bcij,bckl->bijkl", F.normalize(query, dim=1),  F.normalize(memory, dim=1))
+    simscore = rearrange(simscore, "b h1 w1 h2 w2 -> b h1 w1 (h2 w2)")
+
+    M = 1/2 * torch.min(1.0 - simscore, dim = -1)[0]
+    return M
 
 class AlignmentModule(nn.Module):
     def __init__(self, input_channels=2048, hidden_channels=256, alignment_type="sa", fusion_policy='cat'):
@@ -277,7 +297,7 @@ class MetaUAS(pl.LightningModule):
                 
         for i in range(len(self.alignment)):
             query_encoded_features[-(i + 1)] = self.alignment[i](query_encoded_features[-(i + 1)], prompt_encoded_features[-(i + 1)])
-           
+        
         query_decoded_features = self.decoder(*query_encoded_features[self.encoder_depth-self.decoder_depth:])
         
         if self.decoder_name == "fpn" or self.decoder_name == "fpncat" or self.decoder_name == "fpnadd":
