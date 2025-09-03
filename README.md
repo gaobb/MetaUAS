@@ -31,10 +31,14 @@ pip install -r requirements.txt
 python app.py
 ```
 
+## Evaluation on MVTec/VisA/GoodsAD
+```
+bash test.sh
+```
 ## ToDo List
 - [x] release pre-trained [MetaUAS models](https://huggingface.co/csgaobb/MetaUAS)
 - [x] deploy [online MetaUAS Demo](https://huggingface.co/spaces/csgaobb/MetaUAS)
-- [ ] open testing code
+- [x] open testing code
 - [ ] open training code
 
 
