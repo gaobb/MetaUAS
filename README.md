@@ -9,7 +9,7 @@
 
 - [2026-02-05]: Added 1-shot MetaUAS results on Real-IAD and Real-IAD-Variety datasets.
 
-| Datasets | Methods | I-AUROC | I-AP | I-F1 | P-AUROC | P-AP | P-F1 | P-AUPRO |
+| Datasets | Methods | I-ROC | I-PR | I-F1 | P-ROC | P-PR | P-F1 | P-PRO |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Real-IAD** | MetaUAS (1-shot) | 80.0 ± 0.4 | 77.9 ± 0.4 | 72.4 ± 0.4 | 95.6 ± 0.2 | 36.6 ± 1.1 | 39.7 ± 1.0 | 83.5 ± 0.7 |
 | **Real-IAD-Variety** | MetaUAS (1-shot) | 81.9 ± 0.1 | 96.3 ± 0.1 | 94.1 ± 0.0 | 92.0 ± 0.1 | 48.2 ± 0.4 | 48.3 ± 0.3 | 76.5 ± 0.1 |
